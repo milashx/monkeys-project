@@ -1,0 +1,48 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding: 20px;
+}
+
+.section p, .section div{
+    text-align: left;
+}
+
+.section div{
+    color: rgb(196, 63, 85);
+}
+
+div .blur-text{
+    margin-left: 20px;
+    color: gray;
+    text-shadow: 1px 1px;
+}
+
+.section p{
+    height: 170px;
+}
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    background: white;
+    padding: 20px 40px;
+    width: 70%;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 7%;
+    box-shadow: 0 0 20px brown;
+}
+
+body{
+    background: #faebc8;
+}
+
+img{
+    width: 80%; 
+}
